@@ -88,7 +88,7 @@ def draw_line(frame, window_name):
 # ================= MAIN =================
 def main():
 
-    VIDEO_PATH = "Hour-1.mp4"
+    VIDEO_PATH = "Emergency_sample.mp4"
     cap = cv2.VideoCapture(VIDEO_PATH)
 
     ret, first_frame = cap.read()
